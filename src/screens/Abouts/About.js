@@ -8,7 +8,7 @@ const About = () => {
   const navigation = useNavigation();  
 
   const handlePress = () => {
-    navigation.navigate('Tobe');  
+    navigation.navigate('Tabs');  
   };
 
   return (

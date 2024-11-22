@@ -1,6 +1,5 @@
 {
   "expo": {
-    
     "name": "MausamMaster",
     "slug": "MausamMaster",
     "version": "1.0.0",
@@ -13,14 +12,18 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.nasirshahid.MausamMaster"
+      "package": "com.nasirshahid.MausamMaster",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,6 +32,9 @@
       "eas": {
         "projectId": "cb2cb82d-ecf0-4e0d-abca-c15fdb6ac217"
       }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cb2cb82d-ecf0-4e0d-abca-c15fdb6ac217"
     }
   }
 }

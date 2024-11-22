@@ -210,7 +210,7 @@ const App = () => (
       <Stack.Screen name="About" component={About} />
       <Stack.Screen name="Serchbar" component={Serchbar} />
      
-      <Stack.Screen name="Tob" component={TobDrawerNavigator} />
+      <Stack.Screen name="Tabs" component={TobDrawerNavigator} />
       <Stack.Screen name="SignIns" component={SignIns} />
     </Stack.Navigator>
   </NavigationContainer>
